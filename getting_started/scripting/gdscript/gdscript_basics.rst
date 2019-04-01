@@ -821,8 +821,10 @@ used. When iterating over an array, the current array element is stored in
 the loop variable. When iterating over a dictionary, the *index* is stored
 in the loop variable.
 
-::
-
+::  
+    for i in 99:
+      print(i)
+    
     for x in [5, 7, 11]:
         statement # Loop iterates 3 times with 'x' as 5, then 7 and finally 11.
 
